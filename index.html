@@ -1,56 +1,115 @@
 <html>
 	<head>
-		<title>Slide 0 - EasyIT</title>
+		<title>JS Presentation - EasyIT</title>
 
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+		<link rel="stylesheet" type="text/css" href="/lib/highslide/highslide.css">
 		<link rel="stylesheet" type="text/css" href="/css/app.css">
+		
 		<link rel="shortcut icon" href="/img/favicon.ico">
-
-
 	</head>
 
 	<body class="step-0">
-		<a href="#step-0" class="logo go-to-step"></a>
+		<header>
+			<div class="row">
+				<a href="/" class="logo"></a>
+				<div class="pager">
+					<span class="prev-step">Prev</span>
+					<span class="next-step">Next</span>
+				</div>
+			</div>
+		</header>
+		
+		<div class="progress-bar row">
+			<div class="bullet">0</div>
+		</div>
 
 		<div class="steps">
-			<div class="step-0">
-				<a href="#step-1" class="start-button go-to-step"></a>
+			<div class="step current">
+				<span class="start-button next-step"></span>
 			</div>
-			<div class="step-1">
-				<h1>Почему многие хотят <span>попасть в IT?</span></h1>
+			<div class="step">
+				<h1><span>Сергей Перерва</span></h1>
+				<h2>Web Developer (PHP, JavaScript, InstantCMS, Wordpress, OpenCart)</h2>
+				<div class="row">
+					<div class="col-1">
+						<h3>Образование</h3>
+						<p>МК СумГУ<br />
+							<em>Эксплутация систем обработки информации и принятия решений</em></p>
+					</div>
+
+					<div class="col-1">
+						<h3>Опыт работы</h3>
+						<p>с 11.2015 по наст. время<br />
+							Freelancer <em>(Full stack web developer)</em></p>
+						<hr />
+						<p>с 01.2013 по наст. время<br />
+							ТОВ "ИКС", Сумы <em>(Full stack web developer)</em></p>
+					</div>
+
+				</div>		
+			</div>
+			
+			<div class="step">
+				<h1><span>Цель</span> занятия</h1>
 				<div class="row">
 					<div class="col-2">
-						<h3>ВЫСОКИЙ УРОВЕНЬ ЗАРПЛАТ</h3>
-						<p>Начинающий Frontend разработчик может рассчитывать на ЗП от $300. Старший специалист - от $1900, а опытный Team Lead в среднем получает $3500.</p>
+						<img class="resp-img" src="/img/target.jpg" alt="">
 					</div>
 					<div class="col-2">
-						<h3>ВОЗМОЖНОСТЬ РАБОТАТЬ УДАЛЕННО</h3>
-						<p>Сфера IT предполагает возможность работы из любой точки мира. Гибкий график и ориентация на результат позволят вам выбрать наиболее приемлемый режим.</p>
+						<ul>
+							<li>Познакомиться</li>
+							<li>Рассказать вцелом о фронте</li>
+							<li>Определить уровень студентов в Web разработке</li>
+							<li>Ознакомить с программой курса</li>
+							<li>Дать рекомендации по рабочему окружению (OS, IDE)</li>
+						</ul>
 					</div>
 				</div>		
-
-				<div class="row">
-					<div class="col-2">
-						<h3>КОМФОРТНЫЕ УСЛОВИЯ ТРУДА</h3>
-						<p>Комфортные офисы класса А, зоны отдыха, компенсация спорта, медицинская страховка, обучение по специальности, высокий уровень менеджмента и управления проектами в командах.</p>
-					</div>
-					<div class="col-2">
-						<h3>РАЗВИВАЮЩАЯСЯ ОТРАСЛЬ</h3>
-						<p>IT рынок во всем мире растет. В Украине это самая быстрорастущая отрасль экономики (около 6% за 2015 год). Как следствие - постоянная нехватка кадров в компаниях и большие перспективы карьерного роста.</p>
-					</div>
-				</div>
-
-				<div class="pager">
-					<a href="#step-0" class="go-to-step">Начало</a>
-					<a href="#step-2" class="go-to-step">Слайд 2</a>
-				</div>
-
 			</div>
 
-			<div class="step-2">
-				<h1>Где вы хотите работать после окончания курса?</h1>
+			<div class="step">
+				<h1>Что <span>эффективней</span></h1>
+				<div class="row">
+					<div class="col-2">
+						<h3>УНИВЕР</h3>
+						<img class="resp-img" src="/img/sumgu.png" alt="">
+						<ul>
+							<li>Долго</li>
+							<li>Дорого</li>
+							<li>Не всегда актуально (В зависимости от программы или препода)</li>
+						</ul>
+					</div>
+					<div class="col-2">
+						<h3>КУРСЫ</h3>
+						<img class="resp-img" src="/img/maranna.png" alt="">
+						<ul>
+							<li>Быстрее</li>
+							<li>Дешевле</li>
+							<li>По финишу рассмотрим и выполним некоторые задания из моей практики</li>
+						</ul>
+					</div>
+				</div>		
+			</div>
+
+			<div class="step">
+				<h1>Кто такой <span>Frontend Developer</span>?</h1>
+				<div class="row">
+					<div class="col-2">
+						<img class="resp-img" src="/img/developer.jpg" alt="">
+					</div>
+					<div class="col-2">
+						<p>Это программист, который создает пользовательские интерфейсы приложений, веб-сервисов и сайтов.</p>
+						<p>Пользовательский интерфейс - это все то, что вы видите на экране своего компьютера, когда просматриваете какой-либо сайт.</p>
+						<p>А это <a class="highslide-image" onclick="return hs.expand(this);" href="/img/backend-developer.jpg">Backend Developer</a> )))</p>
+					</div>
+				</div>		
+			</div>
+			
+			<div class="step">
+				<h1>Где вы можете <span>работать</span> после окончания курса</h1>
 				<div class="row">
 					<div class="col-2">
 						<h3>IT КОМПАНИЯ</h3>
@@ -73,58 +132,9 @@
 						</ul>
 					</div>
 				</div>		
-
-				<div class="pager">
-					<a href="#step-1" class="go-to-step">Слайд 1</a>
-					<a href="#step-3" class="go-to-step">Слайд 3</a>
-				</div>
-
 			</div>
 
-			<div class="step-3">
-				<h1>Кто такой <span>Frontend Developer</span>?</h1>
-				<div class="row">
-					<div class="col-2">
-						<img class="resp-img" src="/img/developer.jpg" alt="">
-					</div>
-					<div class="col-2">
-						<p>Это программист, который создает пользовательские интерфейсы приложений, веб-сервисов и сайтов.</p>
-						<p>Пользовательский интерфейс - это все то, что вы видите на экране своего компьютера, когда просматриваете какой-либо сайт.</p>
-					</div>
-				</div>		
-
-				<div class="pager">
-					<a href="#step-2" class="go-to-step">Слайд 2</a>
-					<a href="#step-4" class="go-to-step">Слайд 4</a>
-				</div>
-
-			</div>
-
-			<div class="step-4">
-				<h1>Эта специальность идеально <span>подойдет</span> тем, кто...</h1>
-				<div class="row">
-					<div class="col-2">
-						<p>Приходит в неистовство от сайтов, на которых все криво и постоянно что-то не работает. И хочется все срочно исправить и сделать проще и удобней.</p>
-					</div>
-					<div class="col-2">
-						<p>Хочет делать плоды трудов программистов, архитекторов, дизайнеров, копирайтеров доступными и комфортными для использования конечными пользователями.</p>
-					</div>
-					<div class="col-2">
-						<p>Любит, когда результат работы можно "пощупать", показать друзьям и родителям. Отвечать на вопрос "Чем ты занимаешься целыми днями?" тут очень просто.</p>
-					</div>
-					<div class="col-2">
-						<p>Готов уделять внимание каждой мелочи, доводя продукт до совершенства. При этом познать дзен HTML, CSS, JavaScript, наблюдая как любое изменение в коде влияет на конечный вид продукта.</p>
-					</div>
-				</div>		
-
-				<div class="pager">
-					<a href="#step-3" class="go-to-step">Слайд 3</a>
-					<a href="#step-5" class="go-to-step">Слайд 5</a>
-				</div>
-
-			</div>
-
-			<div class="step-5">
+			<div class="step">
 				<h1>Чем же, по факту, <span>занимаются</span> FE разработчики?</h1>
 				<h2>ВОТ 4 СТАНДАРТНЫХ ЭТАПА ТИПИЧНОГО ПРОЕКТА</h2>
 				<div class="row center">
@@ -148,32 +158,50 @@
 						<p><strong>#</strong> сопроводительное техническое задание по его запланированной функциональности (как все должно работать).</p>
 					</div>
 					<div class="col-2">
-						<p><strong>2. </strong>“Разрезают” дизайн на логические блоки и делают каркас будущего сайта с использованием языка разметки HTML.</p>
+						<p><strong>2. </strong>“Разрезают” дизайн на логические блоки и делают каркас будущего сайта с использованием языка разметки <strong>HTML</strong>.</p>
 						<p>На этом этапе воссоздается запланированная структура сайта, но выглядит все пока что не очень.</p>
 					</div>
 					<div class="clearfix"></div>
 					<div class="col-2">
-						<p><strong>3. </strong>Дорабатывают каркас, придавая сайту аккуратный и привлекательный вид с помощью языка стилей CSS.</p>
+						<p><strong>3. </strong>Дорабатывают каркас, придавая сайту аккуратный и привлекательный вид с помощью языка стилей <strong>CSS</strong>.</p>
 						<p>Теперь все красиво и выглядит, как надо. В принципе, можно запускать и так, но... пока что все неподвижно. А в наше время так не годится.</p>
 					</div>
 					<div class="col-2">
-						<p><strong>4. </strong>Добавляют динамики и интерактива в нужных местах, превращая с помощью языка JavaScript сайт в удобный и практичный инструмент.</p>
+						<p><strong>4. </strong>Добавляют динамики и интерактива в нужных местах, превращая с помощью языка <strong>JavaScript</strong> сайт в удобный и практичный инструмент.</p>
 						<p>Тут уж можно в полной мере насладиться результатом работы и получить заслуженные почести за проделанную работу.</p>
 					</div>
 				</div>		
-
-				<div class="pager">
-					<a href="#step-4" class="go-to-step">Слайд 4</a>
-					<a href="#step-6" class="go-to-step">Слайд 6</a>
-				</div>
-
 			</div>
 
-			<div class="step-6">
+			<div class="step">
 				<h1>Какие <span>инструменты</span> используют FE разработчики?</h1>
 				<div class="row center">
 					<div class="col-2">
 						<h3>ПЛАТНЫЕ</h3>
+						<div class="justify">
+							<img class="resp-img" src="/img/macos.png" alt="">
+						</div>
+					</div>
+					<div class="col-2">
+						<h3>БЕСПЛАТНЫЕ</h3>
+						<div class="justify">
+							<img class="resp-img" src="/img/ubuntu.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="row center">
+					<div class="col-2">
+						<div class="justify">
+							<img class="resp-img" src="/img/img-editors/photoshop.png" alt="">
+							<img class="resp-img" src="/img/img-editors/avocode.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-2">
+							<img class="resp-img" src="/img/img-editors/gimp.jpg" alt="">
+					</div>
+				</div>
+				<div class="row center">
+					<div class="col-2">
 						<div class="justify">
 							<img class="resp-img" src="/img/ide/logo_PHP.jpg" alt="">
 							<img class="resp-img" src="/img/ide/logo_IntellijIDEA.jpg" alt="">
@@ -181,7 +209,6 @@
 						</div>
 					</div>
 					<div class="col-2">
-						<h3>БЕСПЛАТНЫЕ</h3>
 						<div class="justify">
 							<img class="resp-img" src="/img/ide/logo_NetBeans IDE.jpg" alt="">
 							<img class="resp-img" src="/img/ide/logo_Sublime.jpg" alt="">
@@ -189,18 +216,12 @@
 					</div>
 					<div class="clearfix"></div>
 					<div class="col-1">
-						<p class="alert">Не забываем о <strong>Dev Tools</strong> :)</p>
+						<p class="alert">Не забываем о <strong>Dev Tools</strong> и <strong>GIT</strong> :)</p>
 					</div>		
 				</div>		
-
-				<div class="pager">
-					<a href="#step-5" class="go-to-step">Слайд 5</a>
-					<a href="#step-7" class="go-to-step">Слайд 7</a>
-				</div>
-
 			</div>
 
-			<div class="step-6">
+			<div class="step">
 				<h1>Какие <span>библиотеки/фреймворки</span> сейчас в тренде?</h1>
 
 				<div class="row center">
@@ -209,24 +230,219 @@
 							<img class="resp-img" src="/img/libs/jquery.jpg" alt="">
 							<img class="resp-img" src="/img/libs/angular.png" alt="">
 							<img class="resp-img" src="/img/libs/react.png" alt="">
-							<img class="resp-img" src="/img/libs/backbone.png" alt="">
-							<img class="resp-img" src="/img/libs/ember.jpg" alt="">
 						</div>
 					</div>		
-				</div>		
-
-				<div class="pager">
-					<a href="#step-6" class="go-to-step">Слайд 6</a>
-					<a href="#step-8" class="go-to-step">Слайд 8</a>
 				</div>
+			</div>
 
+			<div class="step">
+				<h1 class="left row"><span>Модуль 1-1.</span> Основы программирования</h1>
+
+				<div class="row">
+					<div class="col-1">
+						<ul>
+							<li><strong>Настройка рабочего окружения (при необходимости)</strong></li>
+							<li>Введение в JavaScript</li>
+							<li>Обзор базовых типов</li>
+							<li>Операторы</li>
+							<li>Выражения и инструкции</li>
+							<li>Переменные и константы</li>
+							<li>Манипуляции с базовыми типами</li>
+							<li>Тривиальные типы</li>
+						</ul>
+					</div>		
+				</div>
+			</div>
+			
+			<div class="step">
+				<h1 class="left row"><span>Модуль 1-2.</span> Управляющие конструкции</h1>
+
+				<div class="row">
+					<div class="col-1">
+						<ul>
+							<li>Цикл while</li>
+							<li>Операторы инкремента и декремента</li>
+							<li>Цикл for</li>
+							<li>Цикл do while</li>
+							<li>Управляющие конструкции if – else if – else</li>
+							<li>Прерывание и продолжение цикла</li>
+							<li>Управляющая конструкция switch</li>
+							<li><strong>Практикум:</strong> Практическое применение управляющих конструкций в JavaScript</li>
+						</ul>
+					</div>		
+				</div>
+			</div>
+			
+			<div class="step">
+				<h1 class="left row"><span>Модуль 1-3.</span> Функции</h1>
+
+				<div class="row">
+					<div class="col-1">
+						<ul>
+							<li>Понятие функций</li>
+							<li>Декларация функций</li>
+							<li>Аргументы функции</li>
+							<li>Возврат значений</li>
+							<li>Области видимости</li>
+							<li>Функция-выражение</li>
+							<li>Анонимная функция</li>
+							<li><strong>Практикум:</strong> Использование функций при процедурном подходе в программировании</li>
+						</ul>
+					</div>		
+				</div>
+			</div>
+
+			<div class="step">
+				<h1 class="left row"><span>Модуль 1-4.</span> Объектные типы</h1>
+
+				<div class="row">
+					<div class="col-1">
+						<ul>
+							<li>Объектный тип: Объект (Object)</li>
+							<li>Свойства объекта</li>
+							<li>Методы объекта</li>
+							<li>Объектный тип: Массив (Array)</li>
+							<li>Свойство и методы функций</li>
+							<li><strong>Практикум:</strong> Использование объектных типов в JavaScript</li>
+						</ul>
+					</div>		
+				</div>
+			</div>
+			
+			<div class="step">
+				<h1 class="left row"><span>Модуль 1-5.</span> Объектно-ориентированное программирование</h1>
+
+				<div class="row">
+					<div class="col-1">
+						<ul>
+							<li>Конструкторы объектов</li>
+							<li>Прототипы</li>
+							<li>Классы</li>
+							<li><strong>Практикум:</strong> Применение объектно-ориентированного подхода в программировании</li>
+						</ul>
+					</div>		
+				</div>
+			</div>
+
+			<div class="step">
+				<h1 class="left row"><span>Модуль 1-6.</span> Дополнительная информация</h1>
+
+				<div class="row">
+					<div class="col-1">
+						<ul>
+							<li>Дополнительная информация по функционалу JavaScript</li>
+							<li>Дополнительные встроенные объекты</li>
+						</ul>
+					</div>		
+				</div>
+			</div>
+
+			<div class="step">
+				<h1 class="left row"><span>Модуль 2-1.</span> Объектная модель браузера</h1>
+
+				<div class="row">
+					<div class="col-1">
+						<ul>
+							<li>Объектная модель браузера</li>
+							<li>Объект Window</li>
+							<li>Объект Navigator</li>
+							<li>Объект Screen</li>
+							<li>Объект History</li>
+							<li>Объект Location</li>
+							<li>Объект Document</li>
+							<li>HTML-коллекции</li>
+							<li><strong>Практикум:</strong>  Практическое использование объектов браузера</li>
+						</ul>
+					</div>		
+				</div>
+			</div>
+
+			<div class="step">
+				<h1 class="left row"><span>Модуль 2-2.</span> Использование элементов HTML</h1>
+
+				<div class="row">
+					<div class="col-1">
+						<ul>
+							<li>Свойства и методы элемента Form</li>
+							<li>Свойства и методы элемента Input</li>
+							<li>Свойства и методы элемента TextArea</li>
+							<li>Свойства и методы элемента Select</li>
+							<li>Свойства и методы элемента Option</li>
+							<li>Свойства и методы элемента Image</li>
+							<li>Свойства и методы элемента Table</li>
+							<li><strong>Практикум:</strong> Практическое использование элементов HTML</li>
+						</ul>
+					</div>		
+				</div>
+			</div>
+
+			<div class="step">
+				<h1 class="left row"><span>Модуль 2-3.</span> Объектная модель документа: DOM</h1>
+
+				<div class="row">
+					<div class="col-1">
+						<ul>
+							<li>Document Object Model (DOM)</li>
+							<li>Типы узлов</li>
+							<li>Связи между объектами</li>
+							<li>Свойства и методы интерфейса Node</li>
+							<li>Свойства и методы интерфейса Element</li>
+							<li>Свойства и методы интерфейса Document</li>
+							<li>Нестандартные свойства и методы HTML-элементов</li>
+							<li>Свойства и методы коллекции styleSheets</li>
+							<li><strong>Практикум:</strong>  Использование объектной модели документа</li>
+						</ul>
+					</div>		
+				</div>
+			</div>
+
+			<div class="step">
+				<h1 class="left row"><span>Модуль 2-4.</span> События и их обработка</h1>
+
+				<div class="row">
+					<div class="col-1">
+						<ul>
+							<li>Список событий</li>
+							<li>Модели событий</li>
+							<li>Назначение обработчиков событий</li>
+							<li>Работа с обработчиками событий</li>
+							<li>Получение ссылки на событие</li>
+							<li>Отмена действий по умолчанию</li>
+							<li>Кроссбраузерные свойства события</li>
+							<li>Получение ссылки на элемент</li>
+							<li>Использование фазы всплытия событий</li>
+							<li>Отмена всплытия события</li>
+							<li><span>Практикум:</span> Использование разных моделей событий</li>
+						</ul>
+					</div>		
+				</div>
+			</div>
+
+			<div class="step">
+				<h1 class="left row"><span>Модуль 3.</span> На оставшиеся часы</h1>
+
+				<div class="row">
+					<div class="col-1">
+						<ul>
+							<li>jQuery</li>
+							<li>AJAX</li>
+							<li>Bootstrap</li>
+							<li>SCSS</li>
+							<li>Пакетные менеджеры (к примеру Bower)</li>
+							<li>Поверхностно React или Angular (По желанию, на выбор)</li>
+							<li>Поверхностно Git</li>
+							<li>Выполнение некоторых заданий из моей практики</li>
+						</ul>
+					</div>		
+				</div>
 			</div>
 
 		</div>
 
-		<div class="author">S. Pererva</div>
+		<div class="author">S. Pererva <a target="_blank" href="/notes.html">(Notes)</a></div>
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="/lib/highslide/highslide-with-html.packed.js"></script>
 		<script src="/js/app.js"></script>
 	</body>
 
